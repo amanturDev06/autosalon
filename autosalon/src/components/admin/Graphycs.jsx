@@ -6,6 +6,9 @@ export const Graphycs = () => {
                 <p>jkcsbkd</p>
                 <p>jkcsbkd</p>
             </div>
+            <div>
+                fknskjfcbs
+            </div>
         </div>
     )
 }
