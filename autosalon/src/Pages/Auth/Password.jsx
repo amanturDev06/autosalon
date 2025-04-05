@@ -1,7 +1,5 @@
-import styled from "styled-components";
-import React from "react";
-import { IonIcon } from 'react-ionicons';
-import BtnGoogle from "../../components/ButtonGoogle/BtnGoogle.jsx";
+import styled from 'styled-components';
+import React from 'react';
 
 const Container = styled.div`
   display: flex;
@@ -13,18 +11,16 @@ const Container = styled.div`
 `;
 
 const HeaderContainer = styled.header`
-  height:2%;
+  height:20px;
   width:100vw;
   border-bottom: 1px solid #707070;
   display: flex;
   align-items: center;
     justify-content: center;
     //border: 1px solid red;
-  
-  
 `;
 
-const StyledTitle2  = styled.h2`
+const StyledTitle2= styled.h2`
   font-size: 40px;
   font-weight: bold;
     display: flex;
@@ -61,7 +57,7 @@ const CheckboxContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 380px;
+    gap: 100px;
     font-size: 14px;
     margin: 20px;
 
@@ -116,53 +112,39 @@ const RegisterText = styled.p`
   color: #333;
 `;
 
-function HEADER() {
-    return null;
-}
-
-function h1() {
-    return null;
-}
 
 
-function ButtonContainer() {
-    return null;
-}
 
 
-function Title2(props) {
-    return null;
-}
 
-const Entrance = () => {
-    return (
+const Password = () => {
+    return(
         <Container>
             <HeaderContainer>
                 <StyledTitle2>LOGO</StyledTitle2>
             </HeaderContainer>
 
             <Form>
-                <Title>Войдите <br/> в учетную запись</Title>
-                <Input type="email" placeholder="Электронная почта" />
-                <Input type="password" placeholder="Введите пароль" />
+                <Title>Создайте новый пароль</Title>
+                <Input type="email" placeholder="Введите пароль" />
+                <Input type="password" placeholder="Подтвердите новый пароль" />
                 <CheckboxContainer>
                     <CheckboxLabel>
                         <Checkbox type="checkbox" /> Запомнить
                     </CheckboxLabel>
-                    <Link href="#">Забыли пароль?</Link>
-                </CheckboxContainer>
-                    <Button>Войти</Button>
 
-                    <Button google>Войти через Google
-                        <BtnGoogle/>
-                    </Button>
-                <RegisterText>
-                    Нет учетной записи? <Link href="#">Зарегистрируйтесь</Link>
-                </RegisterText>
+                </CheckboxContainer>
+                <Button>Войти</Button>
             </Form>
         </Container>
-    );
-};
 
-export default Entrance;
 
+
+
+
+
+
+
+    )
+}
+export default Password;

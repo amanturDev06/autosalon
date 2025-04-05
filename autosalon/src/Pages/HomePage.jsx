@@ -8,6 +8,9 @@ export const HomePage = () => {
             {/*<Graphycs />*/}
             <div>
                 <p onClick={() => navigate('/auth-entrance')}>Login Page</p>
+                <p onClick={() => navigate('/auth-password')}>Password Page</p>
+                <p onClick={() => navigate('/auth-advertising')}> Advertising Page</p>
+
             </div>
         </div>
     )
