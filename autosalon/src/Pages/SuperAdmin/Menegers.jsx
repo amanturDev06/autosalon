@@ -219,7 +219,7 @@ export default function Managers() {
                                 </button>
                                 <button
                                     onClick={handleAddManager}
-                                    className="bg-[#2DA57A] text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                                    className="bg-[#2DA57A] border-none w-[121px] h-[54px] text-white px-4 py-2 rounded-lg hover:bg-green-600"
                                 >
                                     Сохранить
                                 </button>

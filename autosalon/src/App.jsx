@@ -6,6 +6,8 @@ import Verification from "./Pages/Autorization/Verification.jsx";
 import Password from "./Pages/Auth/Password.jsx";
 import Advertising from "./Pages/Auth/Advertising.jsx";
 import {Route, Routes} from "react-router-dom";
+import Menegers from "./Pages/SuperAdmin/Menegers.jsx"
+
 function App() {
     return (
         <>

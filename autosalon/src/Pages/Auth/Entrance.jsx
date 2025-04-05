@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import { IonIcon } from 'react-ionicons';
+
 import BtnGoogle from "../../components/ButtonGoogle/BtnGoogle.jsx";
 
 const Container = styled.div`
