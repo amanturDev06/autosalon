@@ -1,24 +1,4 @@
-* {
-  margin:0;
-  padding:0;
-}
 
-.container {
-  width:1140px;
-  margin:auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-button{
-  cursor:pointer;
-  transition: .4s;
-  border: none;
-  outline: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
