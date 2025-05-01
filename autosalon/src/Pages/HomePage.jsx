@@ -10,6 +10,8 @@ export const HomePage = () => {
                 <p onClick={() => navigate('/auth-entrance')}>Login Page</p>
                 <p onClick={() => navigate('/auth-password')}>Password Page</p>
                 <p onClick={() => navigate('/auth-advertising')}> Advertising Page</p>
+                <p onClick={() => navigate('/auth-interaction')}>Interaction Page</p>
+                <p onClick={() => navigate('/auth-settings')}>Settings Page</p>
 
             </div>
         </div>
