@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.sidebar-link {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidebar-link:hover {
+    background-color: #E9FAF1;
+}
+
+.sidebar-link.active {
+    background-color: #2DA57A;
+
+
+}
+
+.sidebar-link.active .sidebar-icon {
+
+}
+
+.sidebar-icon {
+    width: 20px;
+    height: 20px;
+}
